@@ -1,0 +1,115 @@
+* {
+    background-color: black; 
+    color: white; 
+}
+
+body {
+    display: flex; 
+    align-items: center;  
+    flex-direction: column; 
+}
+.screen {
+    height: 100px; 
+    width: 389px; 
+}
+ .calculator {
+     display: flex;  
+     justify-content: center; 
+}
+
+.operators {
+    display: flex; 
+    flex-direction: column; 
+    order: 1; 
+    justify-content: space-between; 
+}
+.left_side {
+    display: flex; 
+    flex-direction: column-reverse; 
+}
+.numbers {
+    display: flex; 
+    width: 295px;
+    flex-direction: column; 
+}
+.clear_and_two_more {
+    display: flex; 
+    height: 100px; 
+    width: 290px;  
+} 
+
+.seven_nine {
+    display: flex; 
+    align-items: column; 
+    height: 100px; 
+    width: 290px; 
+}
+.four_six {
+    display: flex; 
+    align-items: column; 
+    height: 100px; 
+    width: 290px;
+}
+.one_three {
+    display: flex; 
+    align-items: column; 
+    height: 100px; 
+    width: 290px;
+}
+.zero_dot {
+    display: flex; 
+    align-items: column; 
+    height: 100px; 
+    width: 290px;
+}
+
+
+#divide,
+#times,
+#minus,
+#plus,
+#equals {
+    height: 90px; 
+    width: 90px; 
+    background-color: orange; 
+    border-radius: 100px; 
+    margin-top: 4px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 45px;  
+}
+
+#seven,
+#eight,
+#nine,
+#four,
+#five,
+#six,
+#one,
+#two,
+#three,
+#zero,
+#dot {
+    height: 90px; 
+    width: 90px; 
+    background-color: darkslategray; 
+    border-radius: 100px; 
+    margin-left: 4px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+#clear,
+#positive_negative,
+#percent {
+    height: 90px; 
+    width: 90px; 
+    background-color: lightgray; 
+    border-radius: 100px; 
+    margin-left: 4px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
